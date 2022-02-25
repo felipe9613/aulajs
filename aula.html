@@ -1,0 +1,40 @@
+<html>
+    <head>
+       <title>Aula de JS</title> 
+       <meta charset="utf8" />
+
+       <script src="exec.js"></script>
+        
+        <script>
+            
+            function fazer()
+            {
+                var input = document.getElementById("valor"); 
+                var caixa = document.getElementById("resultado");
+                
+                var valor = input.value;
+
+                caixa.innerHTML = letraMaiuscula(valor);
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+        <h1>Aula</h1>
+        
+        <!-- comentário em html -->
+        
+        <input type="text" id="valor" />
+        
+        <button onclick="fazer()" >Clique</button>
+
+        <div id="resultado">
+
+        </div>
+
+        
+
+    </body>
+</html>
